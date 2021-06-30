@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstBrick.Models.csproj" />
+    <ProjectReference Include="..\FirstBrick.Content\FirstBrick.Content.csproj" />
+    <ProjectReference Include="..\FirstBrick.Interop\FirstBrick.Interop.csproj" />
+    <ProjectReference Include="..\Tools\Tools.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Core\" />
+    <Folder Include="ViewModels\Onboarding\" />
+    <Folder Include="Startup\" />
+  </ItemGroup>
+</Project>

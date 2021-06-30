@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross.Plugin.Messenger" Version="6.4.2" />
+    <PackageReference Include="refit" Version="5.0.23" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="FirstBrick.Interop\obj\FirstBrick.Interop.csproj.nuget.g.targets" />
+    <None Remove="FirstBrick.Interop\obj\FirstBrick.Interop.csproj.nuget.cache" />
+    <None Remove="FirstBrick.Interop\obj\FirstBrick.Interop.csproj.nuget.g.props" />
+    <None Remove="FirstBrick.Interop\obj\project.assets.json" />
+    <None Remove="FirstBrick.Interop\obj\FirstBrick.Interop.csproj.nuget.dgspec.json" />
+    <None Remove="FirstBrick.Interop\obj\Debug\netstandard2.1\FirstBrick.Interop.csprojAssemblyReference.cache" />
+    <None Remove="FirstBrick.Interop\obj\Debug\netstandard2.1\FirstBrick.Interop.assets.cache" />
+    <None Remove="FirstBrick.Content\obj\FirstBrick.Content.csproj.nuget.g.props" />
+    <None Remove="FirstBrick.Content\obj\project.assets.json" />
+    <None Remove="FirstBrick.Content\obj\FirstBrick.Content.csproj.nuget.cache" />
+    <None Remove="FirstBrick.Content\obj\FirstBrick.Content.csproj.nuget.g.targets" />
+    <None Remove="FirstBrick.Content\obj\FirstBrick.Content.csproj.nuget.dgspec.json" />
+    <None Remove="FirstBrick.Content\obj\Debug\netstandard2.1\FirstBrick.Content.csprojAssemblyReference.cache" />
+    <None Remove="FirstBrick.Content\obj\Debug\netstandard2.1\FirstBrick.Content.assets.cache" />
+    <None Remove="FirstBrick.Logic\obj\FirstBrick.Logic.csproj.nuget.cache" />
+    <None Remove="FirstBrick.Logic\obj\FirstBrick.Logic.csproj.nuget.g.targets" />
+    <None Remove="FirstBrick.Logic\obj\FirstBrick.Logic.csproj.nuget.dgspec.json" />
+    <None Remove="FirstBrick.Logic\obj\project.assets.json" />
+    <None Remove="FirstBrick.Logic\obj\FirstBrick.Logic.csproj.nuget.g.props" />
+    <None Remove="FirstBrick.Logic\obj\Debug\netstandard2.1\FirstBrick.Logic.csprojAssemblyReference.cache" />
+    <None Remove="FirstBrick.Logic\obj\Debug\netstandard2.1\FirstBrick.Logic.assets.cache" />
+    <None Remove="FirstBrick.ViewModels\obj\FirstBrick.ViewModels.csproj.nuget.dgspec.json" />
+    <None Remove="FirstBrick.ViewModels\obj\FirstBrick.ViewModels.csproj.nuget.cache" />
+    <None Remove="FirstBrick.ViewModels\obj\FirstBrick.ViewModels.csproj.nuget.g.props" />
+    <None Remove="FirstBrick.ViewModels\obj\FirstBrick.ViewModels.csproj.nuget.g.targets" />
+    <None Remove="FirstBrick.ViewModels\obj\project.assets.json" />
+    <None Remove="FirstBrick.ViewModels\obj\Debug\netstandard2.1\FirstBrick.ViewModels.assets.cache" />
+    <None Remove="FirstBrick.ViewModels\obj\FirstBrick.ViewModels.csproj.nuget.dgspec.json" />
+    <None Remove="FirstBrick.ViewModels\obj\Debug\netstandard2.1\FirstBrick.ViewModels.assets.cache" />
+    <None Remove="FirstBrick.ViewModels\obj\Debug\netstandard2.1\FirstBrick.ViewModels.csprojAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Constants\" />
+  </ItemGroup>
+</Project>
